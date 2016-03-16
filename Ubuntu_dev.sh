@@ -14,5 +14,6 @@ fi
 if [[ $node -eq 5 ]]; then
 	curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 fi
+sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get install -y build-essential mysql-server nodejs nginx vim git nload htop redis-server tmux screen fail2ban
+sudo apt-get install -y build-essential python-dev mysql-server nginx vim git nload htop redis-server tmux screen fail2ban nodejs
